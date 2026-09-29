@@ -11,7 +11,7 @@ python scaffold.py
 ## Steps
 
 - [x] **1.** init_q_table
-- [ ] **2.** max_q_value
+- [x] **2.** max_q_value
 - [ ] **3.** greedy_action
 - [ ] **4.** sample_random_action
 - [ ] **5.** should_explore
