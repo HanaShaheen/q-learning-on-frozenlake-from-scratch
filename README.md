@@ -1,2 +1,32 @@
-# q-learning-on-frozenlake-from-scratch
+# Q-Learning on FrozenLake from Scratch
+
 Build a tabular Q-learning agent that learns to navigate the FrozenLake environment using an epsilon-greedy exploration strategy. You'll implement every piece from the Q-table and update rule to training loops and greedy evaluation.
+
+## How to run
+
+```bash
+python scaffold.py
+```
+
+## Steps
+
+- [x] **1.** init_q_table
+- [ ] **2.** max_q_value
+- [ ] **3.** greedy_action
+- [ ] **4.** sample_random_action
+- [ ] **5.** should_explore
+- [ ] **6.** epsilon_greedy_action
+- [ ] **7.** decay_epsilon
+- [ ] **8.** td_target
+- [ ] **9.** td_error
+- [ ] **10.** q_learning_update
+- [ ] **11.** interaction_step
+- [ ] **12.** run_training_episode
+- [ ] **13.** train_q_learning
+- [ ] **14.** extract_greedy_policy
+- [ ] **15.** run_greedy_episode
+- [ ] **16.** evaluate_success_rate
+
+---
+
+Built on Deep-ML.
