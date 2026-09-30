@@ -31,8 +31,10 @@ def greedy_action(q_table, state):
     # TODO: return argmax over the action axis for this state's Q values
     return int(np.argmax(q_table[state]))
 
-# Step 4 - sample_random_action (not yet solved)
-# TODO: implement
+# Step 4 - sample_random_action
+def sample_random_action(action_space):
+    # TODO: draw a uniformly random action from the given Gymnasium action space
+    return int(action_space.sample())
 
 # Step 5 - should_explore (not yet solved)
 # TODO: implement
