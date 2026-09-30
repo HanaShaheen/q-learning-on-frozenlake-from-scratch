@@ -12,7 +12,7 @@ python scaffold.py
 
 - [x] **1.** init_q_table
 - [x] **2.** max_q_value
-- [ ] **3.** greedy_action
+- [x] **3.** greedy_action
 - [ ] **4.** sample_random_action
 - [ ] **5.** should_explore
 - [ ] **6.** epsilon_greedy_action
