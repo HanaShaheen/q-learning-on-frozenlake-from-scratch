@@ -17,7 +17,7 @@ python scaffold.py
 - [x] **5.** should_explore
 - [x] **6.** epsilon_greedy_action
 - [x] **7.** decay_epsilon
-- [ ] **8.** td_target
+- [x] **8.** td_target
 - [ ] **9.** td_error
 - [ ] **10.** q_learning_update
 - [ ] **11.** interaction_step
