@@ -21,7 +21,7 @@ python scaffold.py
 - [x] **9.** td_error
 - [x] **10.** q_learning_update
 - [x] **11.** interaction_step
-- [ ] **12.** run_training_episode
+- [x] **12.** run_training_episode
 - [ ] **13.** train_q_learning
 - [ ] **14.** extract_greedy_policy
 - [ ] **15.** run_greedy_episode
