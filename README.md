@@ -19,7 +19,7 @@ python scaffold.py
 - [x] **7.** decay_epsilon
 - [x] **8.** td_target
 - [x] **9.** td_error
-- [ ] **10.** q_learning_update
+- [x] **10.** q_learning_update
 - [ ] **11.** interaction_step
 - [ ] **12.** run_training_episode
 - [ ] **13.** train_q_learning
