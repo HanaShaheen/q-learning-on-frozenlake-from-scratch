@@ -81,8 +81,23 @@ def q_learning_update(q_table, state, action, reward, next_state, done, alpha, g
     q_table[state][action]+= alpha * td_error((td_target(reward, gamma , q_table, next_state, done)), q_table, state, action)
     return float(q_table[state][action])
 
-# Step 11 - interaction_step (not yet solved)
-# TODO: implement
+# Step 11 - interaction_step
+def interaction_step(env, q_table, state, epsilon, alpha, gamma, rng):
+    # TODO: select epsilon-greedy action, step env, apply Q-learning update, return (next_state, reward, done)
+    greedy_action= epsilon_greedy_action(q_table, state, epsilon, env.action_space, rng)
+    
+    next_state,reward, terminated, truncated,_ = env.step(greedy_action)
+    done= terminated or truncated
+
+    if done:
+       td_target= reward
+    else:
+        td_target= reward + gamma*np.max(q_table[next_state])
+
+    td_error= td_target - q_table[state][greedy_action]
+    q_learning_update(q_table, state, greedy_action, reward, next_state, done, alpha, gamma)
+
+    return (next_state, float(reward), done)
 
 # Step 12 - run_training_episode (not yet solved)
 # TODO: implement

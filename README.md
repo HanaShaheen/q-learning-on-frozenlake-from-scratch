@@ -20,7 +20,7 @@ python scaffold.py
 - [x] **8.** td_target
 - [x] **9.** td_error
 - [x] **10.** q_learning_update
-- [ ] **11.** interaction_step
+- [x] **11.** interaction_step
 - [ ] **12.** run_training_episode
 - [ ] **13.** train_q_learning
 - [ ] **14.** extract_greedy_policy
