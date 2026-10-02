@@ -24,7 +24,7 @@ python scaffold.py
 - [x] **12.** run_training_episode
 - [x] **13.** train_q_learning
 - [x] **14.** extract_greedy_policy
-- [ ] **15.** run_greedy_episode
+- [x] **15.** run_greedy_episode
 - [ ] **16.** evaluate_success_rate
 
 ---
