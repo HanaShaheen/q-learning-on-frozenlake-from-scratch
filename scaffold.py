@@ -11,7 +11,7 @@ from model import *  # noqa: F401, F403 (pulls in your solution functions)
 import numpy as np
 import gymnasium as gym
 
-from solution import (
+from model import (
     init_q_table,
     max_q_value,
     greedy_action,
@@ -35,7 +35,7 @@ if __name__ == "__main__":
     np.random.seed(0)
 
     # Build a non-slippery FrozenLake for faster, more reliable learning.
-    env = gym.make("FrozenLake-v1", is_slippery=False)
+    env = gym.make("FrozenLake-v1", map_name="4x4", is_slippery=False, render_mode="human")
     env.action_space.seed(0)
 
     num_states = env.observation_space.n
